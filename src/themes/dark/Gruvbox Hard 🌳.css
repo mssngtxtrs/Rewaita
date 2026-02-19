@@ -1,29 +1,29 @@
 /* Gruvbox Dark Hard Palette */
 @define-color window_bg_color #1d2021; /* bg0_hard */
-@define-color window_fg_color #ebdbb2; /* fg */
+@define-color window_fg_color #fbf1c7; /* fg */
 
 /* View styling */
 @define-color view_bg_color #1d2021; /* bg0_hard */
-@define-color view_fg_color #ebdbb2;
+@define-color view_fg_color #fbf1c7;
 
 /* Header bar */
 @define-color headerbar_bg_color #1d2021; /* bg0_hard */
 @define-color headerbar_backdrop_color #1d2021;
-@define-color headerbar_fg_color #ebdbb2;
+@define-color headerbar_fg_color #fbf1c7;
 
 /* Popovers and dialogs */
 @define-color popover_bg_color #282828; /* bg0 */
-@define-color popover_fg_color #ebdbb2;
+@define-color popover_fg_color #fbf1c7;
 
 @define-color dialog_bg_color @popover_bg_color;
 @define-color dialog_fg_color @popover_fg_color;
 
 /* Cards and sidebars */
 @define-color card_bg_color #282828; /* bg0 */
-@define-color card_fg_color #ebdbb2;
+@define-color card_fg_color #fbf1c7;
 
-@define-color sidebar_bg_color #282828; /* bg0 */
-@define-color sidebar_fg_color #ebdbb2;
+@define-color sidebar_bg_color #1d2021; /* bg0 */
+@define-color sidebar_fg_color #fbf1c7;
 @define-color sidebar_backdrop_color @sidebar_bg_color;
 @define-color sidebar_border_color #504945; /* bg3 */
 
