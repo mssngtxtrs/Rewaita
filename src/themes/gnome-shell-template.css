@@ -83,7 +83,7 @@
 }
 
 /* Overview stuff */
-#overviewGroup {
+.workspace-animation, #overviewGroup {
   background-color: @overview_bg_color;
 }
 
