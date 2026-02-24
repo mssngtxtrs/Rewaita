@@ -75,7 +75,7 @@ def parse_gtk_theme(colors, gnome_shell_css, theme_file, gtk3_file, modify_gtk3_
         with open(gtk3_theme_file, "w") as file:
             file.write(gtk3_file)
 
-    if(modify_gnome_shell and GLib.getenv("XDG_CURRENT_DESKTOP") == "GNOME"):
+    if(modify_gnome_shell and "GNOME" in GLib.getenv("XDG_CURRENT_DESKTOP")):
         for item in items_to_replace:
             gnome_shell_css = gnome_shell_css.replace(f"@{item}", colors[item])
 
