@@ -26,7 +26,7 @@ from .custom_theme_page import CustomPage
 from .theme_page import ThemePage
 from .window_control_box import WindowControlBox
 
-if(GLib.getenv("XDG_CURRENT_DESKTOP") == "GNOME"):
+if("GNOME" in GLib.getenv("XDG_CURRENT_DESKTOP")):
     bus = Gio.bus_get_sync(Gio.BusType.SESSION, None)
     proxy = Gio.DBusProxy.new_sync(
         bus,
