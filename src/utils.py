@@ -103,7 +103,7 @@ def set_to_default(config_dirs, theme_type, reset_func, extras):
     gtk_css = open(gtk_file).read()
     add_css_provider(gtk_css + extras, f"rgb{read_accent_color()}")
         
-    if(GLib.getenv("XDG_CURRENT_DESKTOP") == "GNOME"):
+    if("GNOME" in GLib.getenv("XDG_CURRENT_DESKTOP")):
         reset_func()
 
 def confirm_delete(dialog, response, button, window):
